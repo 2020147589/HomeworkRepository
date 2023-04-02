@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+        #reg{
+            border-top: 2px solid red;
+            border-bottom: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <p id="title">Welcome to Internet-Programming Shop</p>
+        <p id="logOrReg">
+            <a href="login.html" id="log">Login</a>&nbsp;&nbsp;
+            <a href="signup.html" id="reg">Register</a>
+        </p>
+        <hr>
+        <div id="signForm">
+            <form action="login.html" method="post">
+                <p>Personal information (required)</p>
+                <p>Name: <input type="text" name="username" placeholder="Enter your name"></p>
+                <p>
+                    Gender: Male<input type="radio" name="gender" value="m">&nbsp;&nbsp;
+                    Female<input type="radio" name="gender" value="f">
+                </p>
+                <p>
+                    Phone number: <input type="text" name="phoneNum" placeholder="Enter phone number">
+                </p>
+                <p>Password: <input type="password" id="pwd" placeholder="Enter password"></p>
+                <p>Confirm Password: <input type="password" id="confirmPwd" placeholder="Re-confirm password"></p>
+                <p>
+                    <input type="submit" value="Signup">
+                    <input type="reset" value="Cancel">
+                </p>
+            </form>
+        </div>
+        <hr>
+    </div>
+</body>
+</html>

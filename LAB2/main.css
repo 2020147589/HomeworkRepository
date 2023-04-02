@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#app{
+    margin: 5px;
+}
+#title{
+    font-weight: bold;
+    font-size: 2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#logOrReg a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+hr{
+    border: 2px solid black;
+}
+#signForm{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+input[type=submit]{
+    background-color: greenyellow;
+    width: 80px;
+    height: 30px;
+}
+input[type=reset]{
+    background-color: red;
+    width: 80px;
+    height: 30px;
+}
+#loginForm a:first-child{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid black;
+    background-color: greenyellow;
+}
+#loginForm a:nth-child(2){
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid black;
+    background-color: skyblue;
+}
